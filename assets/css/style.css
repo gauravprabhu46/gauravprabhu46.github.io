@@ -138,6 +138,10 @@ h6 {
   height: 40px;
 }
 
+.grey-color {
+  color: #aaaaaa;
+}
+
 #header .social-links a:hover {
   background: #18d26e;
 }
