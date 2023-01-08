@@ -44,6 +44,16 @@ body::before {
   z-index: -1;
 }
 
+.icon-bg{
+  height: 32px;
+  margin-top: 0.2rem;
+  background: white;
+  border-radius: 5px;
+  margin-right: 1rem;
+  float: left;
+  padding: 0.5rem;
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -111,7 +121,7 @@ h6 {
 #header h2 span {
   color: #fff;
   border-bottom: 2px solid #18d26e;
-  padding-bottom: 6px;
+  padding-bottom: 0px;
 }
 
 #header img {
@@ -663,7 +673,7 @@ section .container {
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -1034,7 +1044,7 @@ section .container {
 }
 
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   margin: 10px 0 8px 68px;
