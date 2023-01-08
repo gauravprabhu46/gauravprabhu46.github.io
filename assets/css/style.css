@@ -9,6 +9,10 @@ body {
   background: transparent;
 }
 
+.nav-link.magic-hover {
+  padding: 0.5rem;
+}
+
 ul.skills-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -88,7 +92,7 @@ h6 {
   height: 100vh;
   display: flex;
   align-items: center;
-  z-index: 997;
+  z-index: 1;
   overflow-y: auto;
 }
 
@@ -270,7 +274,7 @@ h6 {
   width: 0;
   height: 2px;
   bottom: -4px;
-  left: 0;
+  /*left: 0; Removed for mouse hover*/
   background-color: #18d26e;
   visibility: hidden;
   width: 0px;
@@ -373,7 +377,7 @@ section {
   bottom: 100%;
   opacity: 0;
   transition: ease-in-out 0.4s;
-  z-index: 2;
+  z-index: 0;
 }
 
 section.section-show {
