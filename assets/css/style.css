@@ -33,7 +33,7 @@ ul.skills-list li::before {
   content: "▹";
   position: absolute;
   left: 0px;
-  color: #18d26e;
+  color: #e0e0e0;
 }
 
 body::before {
@@ -65,12 +65,12 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #e0e0e0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #35e888;
+  color: #e0e0e09c;
   text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #e0e0e0;
   padding-bottom: 0px;
 }
 
@@ -157,7 +157,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #6c757d;
 }
 
 @media (max-width: 992px) {
@@ -275,7 +275,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   /*left: 0; Removed for mouse hover*/
-  background-color: #18d26e;
+  background-color: #e0e0e0;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -419,7 +419,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #e0e0e0;
   margin: 4px 10px;
 }
 
@@ -439,7 +439,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #e0e0e0;
 }
 
 .about-me .content ul {
@@ -460,7 +460,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #e0e0e0;
   line-height: 0;
 }
 
@@ -491,7 +491,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #e0e0e0;
   border-radius: 50px;
   line-height: 0;
 }
@@ -543,7 +543,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #e0e0e0;
 }
 
 /*--------------------------------------------------------------
@@ -654,7 +654,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #e0e0e0;
 }
 
 /*--------------------------------------------------------------
@@ -681,7 +681,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #e0e0e0;
   margin-bottom: 10px;
 }
 
@@ -714,8 +714,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
 }
 
 /*--------------------------------------------------------------
@@ -777,8 +777,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  background: #e0e0e0;
+  border-color: #e0e0e0;
 }
 
 .services .icon-box:hover .icon {
@@ -831,7 +831,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #e0e0e0;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -931,7 +931,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #e0e0e0;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1040,7 +1040,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #e0e0e0;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1077,7 +1077,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #e0e0e0;
 }
 
 .contact .php-email-form {
@@ -1101,7 +1101,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #18d26e;
+  background: #e0e0e0;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1164,7 +1164,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #e0e0e0;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1173,7 +1173,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #e0e0e0;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1220,7 +1220,7 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: #e0e0e0;
   transition: 0.3s;
 }
 
